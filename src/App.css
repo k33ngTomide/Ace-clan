@@ -18,7 +18,6 @@
 
 .App-header {
   background-color: #ffffff;
-  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -27,6 +26,7 @@
   font-size: calc(10px + 2vmin);
   color: rgb(22, 22, 22);
   font-family: 'Heritho', sans-serif;
+  width: 100%;
   
 
 }
@@ -48,7 +48,6 @@
   margin-bottom: 100px;
   flex: 1;
   overflow-y: auto;
-  padding: 49px 4px;
   
 }
 .App-link {
@@ -65,8 +64,8 @@
 }
 
 #messages{
-  background-color: #272626;
-  color: rgb(243, 243, 245);
+  background-color: #2d2e2e;
+  color: rgb(255, 255, 255);
   font-family: 'Mali', sans-serif;
   padding: 20px;
   font-size: 15px;
