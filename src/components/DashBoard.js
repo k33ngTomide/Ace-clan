@@ -10,7 +10,7 @@ export function DashBoard() {
 
   useEffect(() => {
     
-    const socket = io('http://localhost:3001');
+    const socket = io('https://ace-chat.onrender.com');
 
     socket.on('load messages', (messageHistory) => {
       messageHistory.forEach(message => {
@@ -54,7 +54,7 @@ export function DashBoard() {
   const handleSendMessage = () => {
     console.log("i got here, trying to emit messages")
     if (text) {
-      io('http://localhost:3001').emit('send message', {text});
+      io('https://ace-chat.onrender.com').emit('send message', {text});
       setText('');
 
     }
