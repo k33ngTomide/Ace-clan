@@ -52,7 +52,7 @@ export function DashBoard() {
   
 
   const handleSendMessage = () => {
-    console.log("i got here, trying to emit messages")
+    console.log("emitting message...")
     if (text) {
       io('https://ace-chat.onrender.com').emit('send message', {text});
       setText('');

@@ -69,8 +69,8 @@
 }
 
 #messages{
-  background-color: #2d2e2e;
-  color: rgb(255, 255, 255);
+  background-color: #86c2f3;
+  color: rgb(5, 5, 5);
   font-family: 'Mali', sans-serif;
   padding: 20px;
   font-size: 15px;
@@ -83,6 +83,7 @@
 
 .inputPlace{
   display: flex;
+  align-items: center;
   padding: 10px;
   background: none;
   position: fixed;
